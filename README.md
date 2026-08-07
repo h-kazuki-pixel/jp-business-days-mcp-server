@@ -1,5 +1,7 @@
 # jp-business-days MCP Server 📅✅
 
+[![CI](https://github.com/h-kazuki-pixel/jp-business-days-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/h-kazuki-pixel/jp-business-days-mcp-server/actions/workflows/ci.yml)
+
 日本の営業日計算(土日・祝日を除く)を Claude に提供する MCP (Model Context Protocol) サーバーです。
 
 An MCP server that gives Claude accurate Japanese business-day calculations (weekends and national holidays excluded). Works fully offline — no API keys required.
