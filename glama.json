@@ -1,1 +1,4 @@
-glama.json
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["h-kazuki-pixel"]
+}

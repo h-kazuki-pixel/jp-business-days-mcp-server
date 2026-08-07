@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
+    "test": "npm run build && node test/run_tests.mjs && node --test test/holidays.test.mjs test/businessDays.test.mjs",
     "prepare": "tsc"
   },
   "keywords": [
@@ -18,6 +19,9 @@
   ],
   "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "zod": "^4.4.3"
